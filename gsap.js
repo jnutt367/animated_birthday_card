@@ -1,0 +1,12 @@
+gsap.fromTo("h1", { color: "green", x: -500 }, { duration: 2, fontFamily: "fantasy", marginTop: "30", fontSize: "3em", repeat: 1, x: 30, ease: "bounce", color: "red" })
+gsap.fromTo("body", { backgroundColor: "grey" }, { repeat: -1, duration: 5, backgroundColor: "black" })
+gsap.fromTo("#path909", { x: -500 }, { x: 100 })
+gsap.fromTo("#path1534", { x: -500 }, { x: 100 })
+gsap.fromTo("#h", { y: -500 }, { repeat: -1, duration: 4, y: 0, ease: "elastic" }, 5)
+gsap.fromTo("#ap", { y: -500 }, { repeat: -1, duration: 5, y: 0, ease: "elastic" }, 6)
+gsap.fromTo("#py", { y: -700 }, { repeat: -1, duration: 5, y: 0, ease: "elastic" }, 7)
+
+gsap.fromTo("#b", { y: 700 }, { duration: 5, y: 0, ease: "elastic" }, 7)
+gsap.fromTo("#irth", { y: 700 }, { duration: 5, y: 0, ease: "elastic" }, 7)
+gsap.fromTo("#day", { y: 700 }, { duration: 5, y: 0, ease: "elastic" }, 7)
+gsap.fromTo("#dot", { y: 500 }, { duration: 5, y: 0, ease: "elastic" }, 7)
